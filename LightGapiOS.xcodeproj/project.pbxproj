@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2006E641898094400F61DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2006E631898094400F61DA1 /* Foundation.framework */; };
+		C2006E661898094400F61DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2006E651898094400F61DA1 /* CoreGraphics.framework */; };
+		C2006E681898094400F61DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2006E671898094400F61DA1 /* UIKit.framework */; };
+		C2006E6E1898094400F61DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2006E6C1898094400F61DA1 /* InfoPlist.strings */; };
+		C2006E701898094400F61DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2006E6F1898094400F61DA1 /* main.m */; };
+		C2006E741898094400F61DA1 /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2006E731898094400F61DA1 /* CMAppDelegate.m */; };
+		C2006E771898094400F61DA1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2006E751898094400F61DA1 /* Main_iPhone.storyboard */; };
+		C2006E7A1898094400F61DA1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2006E781898094400F61DA1 /* Main_iPad.storyboard */; };
+		C2006E7D1898094400F61DA1 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2006E7C1898094400F61DA1 /* CMViewController.m */; };
+		C2006E7F1898094400F61DA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2006E7E1898094400F61DA1 /* Images.xcassets */; };
+		C2006E861898094400F61DA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2006E851898094400F61DA1 /* XCTest.framework */; };
+		C2006E871898094400F61DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2006E631898094400F61DA1 /* Foundation.framework */; };
+		C2006E881898094400F61DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2006E671898094400F61DA1 /* UIKit.framework */; };
+		C2006E901898094400F61DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2006E8E1898094400F61DA1 /* InfoPlist.strings */; };
+		C2006E921898094400F61DA1 /* LightGapiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2006E911898094400F61DA1 /* LightGapiOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2006E891898094400F61DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2006E581898094400F61DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2006E5F1898094400F61DA1;
+			remoteInfo = LightGapiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2006E601898094400F61DA1 /* LightGapiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightGapiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2006E631898094400F61DA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2006E651898094400F61DA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2006E671898094400F61DA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2006E6B1898094400F61DA1 /* LightGapiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightGapiOS-Info.plist"; sourceTree = "<group>"; };
+		C2006E6D1898094400F61DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2006E6F1898094400F61DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2006E711898094400F61DA1 /* LightGapiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightGapiOS-Prefix.pch"; sourceTree = "<group>"; };
+		C2006E721898094400F61DA1 /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		C2006E731898094400F61DA1 /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		C2006E761898094400F61DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C2006E791898094400F61DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C2006E7B1898094400F61DA1 /* CMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
+		C2006E7C1898094400F61DA1 /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
+		C2006E7E1898094400F61DA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2006E841898094400F61DA1 /* LightGapiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightGapiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2006E851898094400F61DA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2006E8D1898094400F61DA1 /* LightGapiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightGapiOSTests-Info.plist"; sourceTree = "<group>"; };
+		C2006E8F1898094400F61DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2006E911898094400F61DA1 /* LightGapiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightGapiOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2006E5D1898094400F61DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2006E661898094400F61DA1 /* CoreGraphics.framework in Frameworks */,
+				C2006E681898094400F61DA1 /* UIKit.framework in Frameworks */,
+				C2006E641898094400F61DA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2006E811898094400F61DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2006E861898094400F61DA1 /* XCTest.framework in Frameworks */,
+				C2006E881898094400F61DA1 /* UIKit.framework in Frameworks */,
+				C2006E871898094400F61DA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2006E571898094400F61DA1 = {
+			isa = PBXGroup;
+			children = (
+				C2006E691898094400F61DA1 /* LightGapiOS */,
+				C2006E8B1898094400F61DA1 /* LightGapiOSTests */,
+				C2006E621898094400F61DA1 /* Frameworks */,
+				C2006E611898094400F61DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2006E611898094400F61DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2006E601898094400F61DA1 /* LightGapiOS.app */,
+				C2006E841898094400F61DA1 /* LightGapiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2006E621898094400F61DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2006E631898094400F61DA1 /* Foundation.framework */,
+				C2006E651898094400F61DA1 /* CoreGraphics.framework */,
+				C2006E671898094400F61DA1 /* UIKit.framework */,
+				C2006E851898094400F61DA1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2006E691898094400F61DA1 /* LightGapiOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2006E721898094400F61DA1 /* CMAppDelegate.h */,
+				C2006E731898094400F61DA1 /* CMAppDelegate.m */,
+				C2006E751898094400F61DA1 /* Main_iPhone.storyboard */,
+				C2006E781898094400F61DA1 /* Main_iPad.storyboard */,
+				C2006E7B1898094400F61DA1 /* CMViewController.h */,
+				C2006E7C1898094400F61DA1 /* CMViewController.m */,
+				C2006E7E1898094400F61DA1 /* Images.xcassets */,
+				C2006E6A1898094400F61DA1 /* Supporting Files */,
+			);
+			path = LightGapiOS;
+			sourceTree = "<group>";
+		};
+		C2006E6A1898094400F61DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2006E6B1898094400F61DA1 /* LightGapiOS-Info.plist */,
+				C2006E6C1898094400F61DA1 /* InfoPlist.strings */,
+				C2006E6F1898094400F61DA1 /* main.m */,
+				C2006E711898094400F61DA1 /* LightGapiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2006E8B1898094400F61DA1 /* LightGapiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2006E911898094400F61DA1 /* LightGapiOSTests.m */,
+				C2006E8C1898094400F61DA1 /* Supporting Files */,
+			);
+			path = LightGapiOSTests;
+			sourceTree = "<group>";
+		};
+		C2006E8C1898094400F61DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2006E8D1898094400F61DA1 /* LightGapiOSTests-Info.plist */,
+				C2006E8E1898094400F61DA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2006E5F1898094400F61DA1 /* LightGapiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2006E951898094400F61DA1 /* Build configuration list for PBXNativeTarget "LightGapiOS" */;
+			buildPhases = (
+				C2006E5C1898094400F61DA1 /* Sources */,
+				C2006E5D1898094400F61DA1 /* Frameworks */,
+				C2006E5E1898094400F61DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightGapiOS;
+			productName = LightGapiOS;
+			productReference = C2006E601898094400F61DA1 /* LightGapiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2006E831898094400F61DA1 /* LightGapiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2006E981898094400F61DA1 /* Build configuration list for PBXNativeTarget "LightGapiOSTests" */;
+			buildPhases = (
+				C2006E801898094400F61DA1 /* Sources */,
+				C2006E811898094400F61DA1 /* Frameworks */,
+				C2006E821898094400F61DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2006E8A1898094400F61DA1 /* PBXTargetDependency */,
+			);
+			name = LightGapiOSTests;
+			productName = LightGapiOSTests;
+			productReference = C2006E841898094400F61DA1 /* LightGapiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2006E581898094400F61DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Can A. MOGOL";
+				TargetAttributes = {
+					C2006E831898094400F61DA1 = {
+						TestTargetID = C2006E5F1898094400F61DA1;
+					};
+				};
+			};
+			buildConfigurationList = C2006E5B1898094400F61DA1 /* Build configuration list for PBXProject "LightGapiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2006E571898094400F61DA1;
+			productRefGroup = C2006E611898094400F61DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2006E5F1898094400F61DA1 /* LightGapiOS */,
+				C2006E831898094400F61DA1 /* LightGapiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2006E5E1898094400F61DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2006E7A1898094400F61DA1 /* Main_iPad.storyboard in Resources */,
+				C2006E7F1898094400F61DA1 /* Images.xcassets in Resources */,
+				C2006E771898094400F61DA1 /* Main_iPhone.storyboard in Resources */,
+				C2006E6E1898094400F61DA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2006E821898094400F61DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2006E901898094400F61DA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2006E5C1898094400F61DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2006E741898094400F61DA1 /* CMAppDelegate.m in Sources */,
+				C2006E701898094400F61DA1 /* main.m in Sources */,
+				C2006E7D1898094400F61DA1 /* CMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2006E801898094400F61DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2006E921898094400F61DA1 /* LightGapiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2006E8A1898094400F61DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2006E5F1898094400F61DA1 /* LightGapiOS */;
+			targetProxy = C2006E891898094400F61DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2006E6C1898094400F61DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2006E6D1898094400F61DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2006E751898094400F61DA1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2006E761898094400F61DA1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C2006E781898094400F61DA1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2006E791898094400F61DA1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C2006E8E1898094400F61DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2006E8F1898094400F61DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2006E931898094400F61DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2006E941898094400F61DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2006E961898094400F61DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightGapiOS/LightGapiOS-Prefix.pch";
+				INFOPLIST_FILE = "LightGapiOS/LightGapiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2006E971898094400F61DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightGapiOS/LightGapiOS-Prefix.pch";
+				INFOPLIST_FILE = "LightGapiOS/LightGapiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2006E991898094400F61DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightGapiOS.app/LightGapiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightGapiOS/LightGapiOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LightGapiOSTests/LightGapiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2006E9A1898094400F61DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightGapiOS.app/LightGapiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightGapiOS/LightGapiOS-Prefix.pch";
+				INFOPLIST_FILE = "LightGapiOSTests/LightGapiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2006E5B1898094400F61DA1 /* Build configuration list for PBXProject "LightGapiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2006E931898094400F61DA1 /* Debug */,
+				C2006E941898094400F61DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2006E951898094400F61DA1 /* Build configuration list for PBXNativeTarget "LightGapiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2006E961898094400F61DA1 /* Debug */,
+				C2006E971898094400F61DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2006E981898094400F61DA1 /* Build configuration list for PBXNativeTarget "LightGapiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2006E991898094400F61DA1 /* Debug */,
+				C2006E9A1898094400F61DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2006E581898094400F61DA1 /* Project object */;
+}
