@@ -22,6 +22,44 @@
 		C2006E881898094400F61DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2006E671898094400F61DA1 /* UIKit.framework */; };
 		C2006E901898094400F61DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2006E8E1898094400F61DA1 /* InfoPlist.strings */; };
 		C2006E921898094400F61DA1 /* LightGapiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2006E911898094400F61DA1 /* LightGapiOSTests.m */; };
+		C2A60AF2189D224100433CA5 /* alerts.css in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AD9189D224100433CA5 /* alerts.css */; };
+		C2A60AF3189D224100433CA5 /* Alerts.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60ADA189D224100433CA5 /* Alerts.js */; };
+		C2A60AF4189D224100433CA5 /* app.css in Resources */ = {isa = PBXBuildFile; fileRef = C2A60ADB189D224100433CA5 /* app.css */; };
+		C2A60AF5189D224100433CA5 /* DevelopmentController.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60ADC189D224100433CA5 /* DevelopmentController.js */; };
+		C2A60AF6189D224100433CA5 /* fastclick.0.6.10.min.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60ADD189D224100433CA5 /* fastclick.0.6.10.min.js */; };
+		C2A60AF7189D224100433CA5 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C2A60ADE189D224100433CA5 /* index.html */; };
+		C2A60AF8189D224100433CA5 /* initials.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60ADF189D224100433CA5 /* initials.js */; };
+		C2A60AF9189D224100433CA5 /* list.css in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE0189D224100433CA5 /* list.css */; };
+		C2A60AFA189D224100433CA5 /* ListController.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AE1189D224100433CA5 /* ListController.js */; };
+		C2A60AFB189D224100433CA5 /* logged.css in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE2189D224100433CA5 /* logged.css */; };
+		C2A60AFC189D224100433CA5 /* LoggedController.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AE3189D224100433CA5 /* LoggedController.js */; };
+		C2A60AFD189D224100433CA5 /* login.css in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE4189D224100433CA5 /* login.css */; };
+		C2A60AFE189D224100433CA5 /* LoginController.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AE5189D224100433CA5 /* LoginController.js */; };
+		C2A60AFF189D224100433CA5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE6189D224100433CA5 /* logo.png */; };
+		C2A60B00189D224100433CA5 /* MainController.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AE7189D224100433CA5 /* MainController.js */; };
+		C2A60B01189D224100433CA5 /* menu.css in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE8189D224100433CA5 /* menu.css */; };
+		C2A60B02189D224100433CA5 /* menu.html in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE9189D224100433CA5 /* menu.html */; };
+		C2A60B03189D224100433CA5 /* MenuController.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AEA189D224100433CA5 /* MenuController.js */; };
+		C2A60B04189D224100433CA5 /* Prototypes.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AEB189D224100433CA5 /* Prototypes.js */; };
+		C2A60B05189D224100433CA5 /* reset.css in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AEC189D224100433CA5 /* reset.css */; };
+		C2A60B06189D224100433CA5 /* splash-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AED189D224100433CA5 /* splash-logo.png */; };
+		C2A60B07189D224100433CA5 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AEE189D224100433CA5 /* splash.jpg */; };
+		C2A60B08189D224100433CA5 /* statics.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AEF189D224100433CA5 /* statics.js */; };
+		C2A60B09189D224100433CA5 /* store.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AF0189D224100433CA5 /* store.js */; };
+		C2A60B0A189D224100433CA5 /* TestingController.js in Sources */ = {isa = PBXBuildFile; fileRef = C2A60AF1189D224100433CA5 /* TestingController.js */; };
+		C2A60B0B189D22C000433CA5 /* Alerts.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60ADA189D224100433CA5 /* Alerts.js */; };
+		C2A60B0C189D22C000433CA5 /* DevelopmentController.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60ADC189D224100433CA5 /* DevelopmentController.js */; };
+		C2A60B0D189D22C000433CA5 /* fastclick.0.6.10.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60ADD189D224100433CA5 /* fastclick.0.6.10.min.js */; };
+		C2A60B0E189D22C000433CA5 /* initials.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60ADF189D224100433CA5 /* initials.js */; };
+		C2A60B0F189D22C000433CA5 /* ListController.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE1189D224100433CA5 /* ListController.js */; };
+		C2A60B10189D22C000433CA5 /* LoggedController.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE3189D224100433CA5 /* LoggedController.js */; };
+		C2A60B11189D22C000433CA5 /* LoginController.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE5189D224100433CA5 /* LoginController.js */; };
+		C2A60B12189D22C000433CA5 /* MainController.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AE7189D224100433CA5 /* MainController.js */; };
+		C2A60B13189D22C000433CA5 /* MenuController.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AEA189D224100433CA5 /* MenuController.js */; };
+		C2A60B14189D22C000433CA5 /* Prototypes.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AEB189D224100433CA5 /* Prototypes.js */; };
+		C2A60B15189D22C000433CA5 /* statics.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AEF189D224100433CA5 /* statics.js */; };
+		C2A60B16189D22C000433CA5 /* store.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AF0189D224100433CA5 /* store.js */; };
+		C2A60B17189D22C000433CA5 /* TestingController.js in Resources */ = {isa = PBXBuildFile; fileRef = C2A60AF1189D224100433CA5 /* TestingController.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +93,31 @@
 		C2006E8D1898094400F61DA1 /* LightGapiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightGapiOSTests-Info.plist"; sourceTree = "<group>"; };
 		C2006E8F1898094400F61DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2006E911898094400F61DA1 /* LightGapiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightGapiOSTests.m; sourceTree = "<group>"; };
+		C2A60AD9189D224100433CA5 /* alerts.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = alerts.css; sourceTree = "<group>"; };
+		C2A60ADA189D224100433CA5 /* Alerts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Alerts.js; sourceTree = "<group>"; };
+		C2A60ADB189D224100433CA5 /* app.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = app.css; sourceTree = "<group>"; };
+		C2A60ADC189D224100433CA5 /* DevelopmentController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DevelopmentController.js; sourceTree = "<group>"; };
+		C2A60ADD189D224100433CA5 /* fastclick.0.6.10.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fastclick.0.6.10.min.js; sourceTree = "<group>"; };
+		C2A60ADE189D224100433CA5 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C2A60ADF189D224100433CA5 /* initials.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = initials.js; sourceTree = "<group>"; };
+		C2A60AE0189D224100433CA5 /* list.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = list.css; sourceTree = "<group>"; };
+		C2A60AE1189D224100433CA5 /* ListController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ListController.js; sourceTree = "<group>"; };
+		C2A60AE2189D224100433CA5 /* logged.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = logged.css; sourceTree = "<group>"; };
+		C2A60AE3189D224100433CA5 /* LoggedController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = LoggedController.js; sourceTree = "<group>"; };
+		C2A60AE4189D224100433CA5 /* login.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = login.css; sourceTree = "<group>"; };
+		C2A60AE5189D224100433CA5 /* LoginController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = LoginController.js; sourceTree = "<group>"; };
+		C2A60AE6189D224100433CA5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C2A60AE7189D224100433CA5 /* MainController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MainController.js; sourceTree = "<group>"; };
+		C2A60AE8189D224100433CA5 /* menu.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = menu.css; sourceTree = "<group>"; };
+		C2A60AE9189D224100433CA5 /* menu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = menu.html; sourceTree = "<group>"; };
+		C2A60AEA189D224100433CA5 /* MenuController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MenuController.js; sourceTree = "<group>"; };
+		C2A60AEB189D224100433CA5 /* Prototypes.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Prototypes.js; sourceTree = "<group>"; };
+		C2A60AEC189D224100433CA5 /* reset.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = reset.css; sourceTree = "<group>"; };
+		C2A60AED189D224100433CA5 /* splash-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-logo.png"; sourceTree = "<group>"; };
+		C2A60AEE189D224100433CA5 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		C2A60AEF189D224100433CA5 /* statics.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = statics.js; sourceTree = "<group>"; };
+		C2A60AF0189D224100433CA5 /* store.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = store.js; sourceTree = "<group>"; };
+		C2A60AF1189D224100433CA5 /* TestingController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TestingController.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +147,7 @@
 		C2006E571898094400F61DA1 = {
 			isa = PBXGroup;
 			children = (
+				C2A60AD8189D221A00433CA5 /* www */,
 				C2006E691898094400F61DA1 /* LightGapiOS */,
 				C2006E8B1898094400F61DA1 /* LightGapiOSTests */,
 				C2006E621898094400F61DA1 /* Frameworks */,
@@ -153,6 +217,38 @@
 				C2006E8E1898094400F61DA1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2A60AD8189D221A00433CA5 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				C2A60AD9189D224100433CA5 /* alerts.css */,
+				C2A60ADA189D224100433CA5 /* Alerts.js */,
+				C2A60ADB189D224100433CA5 /* app.css */,
+				C2A60ADC189D224100433CA5 /* DevelopmentController.js */,
+				C2A60ADD189D224100433CA5 /* fastclick.0.6.10.min.js */,
+				C2A60ADE189D224100433CA5 /* index.html */,
+				C2A60ADF189D224100433CA5 /* initials.js */,
+				C2A60AE0189D224100433CA5 /* list.css */,
+				C2A60AE1189D224100433CA5 /* ListController.js */,
+				C2A60AE2189D224100433CA5 /* logged.css */,
+				C2A60AE3189D224100433CA5 /* LoggedController.js */,
+				C2A60AE4189D224100433CA5 /* login.css */,
+				C2A60AE5189D224100433CA5 /* LoginController.js */,
+				C2A60AE6189D224100433CA5 /* logo.png */,
+				C2A60AE7189D224100433CA5 /* MainController.js */,
+				C2A60AE8189D224100433CA5 /* menu.css */,
+				C2A60AE9189D224100433CA5 /* menu.html */,
+				C2A60AEA189D224100433CA5 /* MenuController.js */,
+				C2A60AEB189D224100433CA5 /* Prototypes.js */,
+				C2A60AEC189D224100433CA5 /* reset.css */,
+				C2A60AED189D224100433CA5 /* splash-logo.png */,
+				C2A60AEE189D224100433CA5 /* splash.jpg */,
+				C2A60AEF189D224100433CA5 /* statics.js */,
+				C2A60AF0189D224100433CA5 /* store.js */,
+				C2A60AF1189D224100433CA5 /* TestingController.js */,
+			);
+			name = www;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +328,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A60B0B189D22C000433CA5 /* Alerts.js in Resources */,
+				C2A60B0C189D22C000433CA5 /* DevelopmentController.js in Resources */,
+				C2A60B0D189D22C000433CA5 /* fastclick.0.6.10.min.js in Resources */,
+				C2A60B0E189D22C000433CA5 /* initials.js in Resources */,
+				C2A60B0F189D22C000433CA5 /* ListController.js in Resources */,
+				C2A60B10189D22C000433CA5 /* LoggedController.js in Resources */,
+				C2A60B11189D22C000433CA5 /* LoginController.js in Resources */,
+				C2A60B12189D22C000433CA5 /* MainController.js in Resources */,
+				C2A60B13189D22C000433CA5 /* MenuController.js in Resources */,
+				C2A60B14189D22C000433CA5 /* Prototypes.js in Resources */,
+				C2A60B15189D22C000433CA5 /* statics.js in Resources */,
+				C2A60B16189D22C000433CA5 /* store.js in Resources */,
+				C2A60B17189D22C000433CA5 /* TestingController.js in Resources */,
+				C2A60B06189D224100433CA5 /* splash-logo.png in Resources */,
+				C2A60AF7189D224100433CA5 /* index.html in Resources */,
+				C2A60AFD189D224100433CA5 /* login.css in Resources */,
+				C2A60AFF189D224100433CA5 /* logo.png in Resources */,
+				C2A60B07189D224100433CA5 /* splash.jpg in Resources */,
+				C2A60AF2189D224100433CA5 /* alerts.css in Resources */,
+				C2A60B02189D224100433CA5 /* menu.html in Resources */,
+				C2A60B05189D224100433CA5 /* reset.css in Resources */,
 				C2006E7A1898094400F61DA1 /* Main_iPad.storyboard in Resources */,
+				C2A60AF9189D224100433CA5 /* list.css in Resources */,
 				C2006E7F1898094400F61DA1 /* Images.xcassets in Resources */,
+				C2A60AFB189D224100433CA5 /* logged.css in Resources */,
+				C2A60B01189D224100433CA5 /* menu.css in Resources */,
+				C2A60AF4189D224100433CA5 /* app.css in Resources */,
 				C2006E771898094400F61DA1 /* Main_iPhone.storyboard in Resources */,
 				C2006E6E1898094400F61DA1 /* InfoPlist.strings in Resources */,
 			);
@@ -254,9 +375,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A60B00189D224100433CA5 /* MainController.js in Sources */,
+				C2A60B0A189D224100433CA5 /* TestingController.js in Sources */,
+				C2A60AF8189D224100433CA5 /* initials.js in Sources */,
+				C2A60AF5189D224100433CA5 /* DevelopmentController.js in Sources */,
+				C2A60AF6189D224100433CA5 /* fastclick.0.6.10.min.js in Sources */,
 				C2006E741898094400F61DA1 /* CMAppDelegate.m in Sources */,
+				C2A60B03189D224100433CA5 /* MenuController.js in Sources */,
+				C2A60B08189D224100433CA5 /* statics.js in Sources */,
+				C2A60AFC189D224100433CA5 /* LoggedController.js in Sources */,
+				C2A60AFA189D224100433CA5 /* ListController.js in Sources */,
+				C2A60AFE189D224100433CA5 /* LoginController.js in Sources */,
 				C2006E701898094400F61DA1 /* main.m in Sources */,
+				C2A60B09189D224100433CA5 /* store.js in Sources */,
+				C2A60B04189D224100433CA5 /* Prototypes.js in Sources */,
 				C2006E7D1898094400F61DA1 /* CMViewController.m in Sources */,
+				C2A60AF3189D224100433CA5 /* Alerts.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +609,7 @@
 				C2006E971898094400F61DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2006E981898094400F61DA1 /* Build configuration list for PBXNativeTarget "LightGapiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +618,7 @@
 				C2006E9A1898094400F61DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

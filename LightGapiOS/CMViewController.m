@@ -20,13 +20,15 @@
 - (void)viewDidLoad
 {
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"index" withExtension:@"html"];
-    NSString *html = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
-    
-    NSString *path = [[NSBundle mainBundle] bundlePath];
-    NSURL *baseURL = [NSURL fileURLWithPath:path];
+    NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:10];
+    [[NSURLCache sharedURLCache] removeAllCachedResponses];
+    [[NSURLCache sharedURLCache] removeCachedResponseForRequest:request];
+    NSURLCache *sharedCache = [[NSURLCache alloc] initWithMemoryCapacity:0 diskCapacity:0 diskPath:nil];
+    [NSURLCache setSharedURLCache:sharedCache];
     
     [[webView scrollView] setBounces: NO];
-    [webView loadHTMLString:html baseURL:baseURL];
+    [webView loadRequest:request];
+
 }
 
 - (void)didReceiveMemoryWarning
